@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+	<meta charset="UTF-8">
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
+	
+</head>
+
+<body id="background">
+
+
+<main>
+<script type="text/javascript">
+	window.onload=function() {birthDay();}
+	</script> 
+<div id="Maindiv">
+
+	<div id="SIUNav">
+		
+		<ul>
+		
+			<h1>Nicholas Pilkington</h1>	
+			<li><a href="SIUColors.html">SIU Colors</a></li>	
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="player.html">Video Player</a></li>
+			<li><a href="index.html">Home</a></li>
+			
+		</ul>
+	</div>
+</div>
+<br>
+<div id="centerSIUColorspage">
+<div id="SIUText">
+<button type="button" name=print value="Print" onclick="print_current_page();" style="height:20px; width:200px">Print</button>
+
+<br>
+<img src=images/SIUlogo_Square.png alt="SIULogo" align="center">
+<br>
+
+<h1>SIU Colors Page</h1> 
+<br>
+<p>This page shows the SIU Branded Creative Elements & approved colors. </p>
+
+<br>
+<a href="http://brand.siu.edu/creativeelements/colors.html">Southern Illinois University Branded</a>
+<hr>
+<br>
+<h1> JavaScript</h1>
+
+<!--JavaScript Date-->
+<script type="text/javascript">
+window.onload= function() {date();}
+</script>
+<br>
+<p>Current Date: <span id = "Date"></span></p>
+<br>
+<br>
+
+<!--JavaScript Temperatures-->
+<div id="Temperatures">
+<h3>Temperature Conversions:</h3>
+<br>
+<form>
+Celsius to Fahrenheit: <input type="text" id="Celsius" /><br>
+<input type="button" onClick="cToF()" Value="Find" style="height:20px; width:200px" />
+<p>Answer:<span id = "result1"></span>
+</p>
+<br>
+Fahrenheit to Celsius: <input type="text" id="Fahrenheit" /><br>
+<input type="button" onClick="fToC()" Value="Find" style="height:20px; width:200px" />
+<p>Answer:<span id = "result2"></span>
+</p>
+</form>
+</div>
+
+
+<!--JavaScript Math-->
+<div id="Math">
+<h3>Simple Math:</h3>
+<br>
+<form>
+1st Number : <input type="text" id="firstNumber" /><br>
+2nd Number: <input type="text" id="secondNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="Multiply" style="height:20px; width:200px"/>
+<input type="button" onClick="divideBy()" Value="Divide" style="height:20px; width:200px"/>
+<p>Answer :
+<span id = "result"></span>
+</p>
+<br>
+1st Side : <input type="text" id="1" /><br>
+2nd Side: <input type="text" id="2" /><br>
+3nd Side: <input type="text" id="3" /><br>
+<input type="button" onClick="areaTriangle()" Value="Calculate Area" style="height:20px; width:245px"  />
+<p>Answer :
+<span id = "Triangle"></span>
+</p>
+</form>
+</div>
+
+
+<!--JavaScript Fun--> 
+<div id="Fun">
+<h3>For Fun:</h3>
+<br>
+<form>
+Guess a number between 1 and 10: <input type="text" id="guess" /><br>
+<input type="button" onClick="numberGuess()" Value="Guess"  style="height:20px; width:160px" />
+<p>Answer :
+<span id = "guessanswer"></span>
+</p> 
+<br> 
+Enter a year to see if it's a Leap Year: <input type="text" id="year"  /><br>
+<input type="button" onClick="leapYear()" Value="Check"style="height:20px; width:160px"/>
+<p><span id = "leapyear"></span>
+</p> 
+</form>
+</div>
+
+
+</div>
+</div>
+
+</main>
+<div id="SIUfooter">
+<footer>
+	<hr>
+	<p><a href="http://siu.edu/" id="linkcolor">Southern Illinios University</a> - &copy; 2017 - Nicholas Pilkington</p>
+
+</footer>
+</div>
+</body>
+</html>

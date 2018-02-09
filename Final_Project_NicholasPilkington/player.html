@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="player.js"></script>
+</head>
+<body>
+<main> 
+<div id="Maindiv">
+
+	<div id="navdiv">
+		
+		<ul>
+			<h1>Nicholas Pilkington</h1>	
+			<li><a href="SIUColors.html">SIU Colors</a></li>	
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="player.html">Video Player</a></li>
+			<li><a href="index.html">Home</a></li>
+			
+		</ul>
+	</div>
+</div>
+<br><div id="centerpagevideo">
+
+
+	<h2>Count Downs:</h2>
+ <script type="text/javascript">
+window.onload=function() {
+birthDay();
+christmasDay();}
+</script>
+ <p> <span id = "BirthDay"></span></p>
+ <p> <span id = "Christmas"></span></p>
+
+ <br>
+ 
+ <div id="player">
+		<div id="video-container">
+			<div id="screen">
+				<img id="screen-button" src="images/play.png">
+			</div>
+			<video id="video" poster="images/thumbnail.jpg">
+				<source src="sample.mp4">
+				It seems your browser doesn't support the HTML5 video tag. Please update it!
+			</video>
+		</div>
+		<div id="pbar-container">
+			<div id="pbar"></div>
+		</div>
+		
+		
+		<div id="buttons-container">
+			<img id="play-button" src="images/play.png">
+			<div id="time-field">
+				0:00 / 0:00
+			</div>
+			<img id="sound-button"src="images/sound.png">
+			<div id="sbar-container">
+				<div id="sbar"></div>
+			</div>
+			<img id="fullscreen-button" src="images/fullscreen.png"
+		</div>
+	
+	</div>
+	
+</div>
+<br>
+<div id="favorites">
+<h2>Favorites:</h2>
+<br>
+<div id="restaurants">	
+<h4>Restaurants:</h4>
+<p><a href="https://www.crackerbarrel.com/">Cracker Barrel</a></p>
+<img src=images/crackerbarrel.jpg alt="CrackerBarrel">
+<br>
+<p><a href="http://www.ihop.com/">IHOP</a></p>
+<img src=images/ihop.jpg alt="IHOP">
+</div>
+
+<div id="places">
+<h4>Places:</h4>
+<p>Movies</p>
+<img src=images/movies.jpg alt="movies">
+<p>Aquariums</p>
+<img src=images/aquairum.jpg alt="aquairum">
+</div>
+
+<div id="enjoy">
+<h4>Things I Like To Do:</h4>
+<p>Program</p>
+<img src=images/programming.jpg alt="programming">
+<p>Fix Computers</p>
+<img src=images/computer-repair.jpg alt="computer-repair">
+</div>
+
+</div>
+</main>
+<div id="footer">
+<footer>
+	<hr>
+	<p><a href="http://siu.edu/">Southern Illinois University</a> - &copy; 2017 - Nicholas Pilkington</p>
+
+</footer>
+</div>
+	
+	
+	
+</body>
+</html>
